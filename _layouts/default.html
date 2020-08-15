@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+{% include meta.html %}
+{% include yandex.html %}
+{% include favicon.html %}
+</head>
+<body>
+{% include window.html %}
+
+<h2>{{page.subtitle}}</h2>
+{{ content }}
+{% include edit.html %}
+{% include menu.html %}
+<hr>
+{% include footer.html %}
+<p>2017 — {{ site.time | date: "%Y" }} © «Эта»
+</p>
+</body>
+</html>
