@@ -7,7 +7,7 @@ video: media/lastik-ripple.gif
 layout: default
 ---
 
-## 2020
++ 2020
 
 |Проект|Финал||Статус|
 |-|-|-|-|
