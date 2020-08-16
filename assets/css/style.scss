@@ -142,6 +142,7 @@ video {
 }
 
 mark {
+ color: white;
  background: none;
  padding-left: 2px;
  padding-right: 2px;
@@ -157,13 +158,12 @@ mark {
  z-index: 5
 }
 .overlay-name {
-    color: white;
     font-weight: 900;
     font-family: 'IBM Plex Mono', sans-serif;
     font-size: 3em;
     text-align: right;
     transform: skewY(-10deg);
-    transform: perspective(-10deg);
+    transform: perspective(-30deg);
     line-height: 90%;
 }
 
