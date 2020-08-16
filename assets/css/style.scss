@@ -118,34 +118,41 @@ a:visited {
  .video-container {
      position: relative;
 }
- video {
-     height: auto;
-     vertical-align: center;
-     align: center;
-     width: 100%;
+video {
+    height: auto;
+    vertical-align: middle;
+    align: middle;
+    width: 100%;
 }
 
 mark {
-  background: white;
-  padding-left: 10px;
-  padding-right: 10px;
- }
+ background: #e84bc1;
+ padding-left: 2px;
+ padding-right: 2px;
+}
 
 .overlay-desc {
-  background: white;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 5
+ background: alpha;
+ position: absolute;
+ top: 0; right: 0; bottom: 0; left: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ z-index: 5
 }
- .overlay-name {
-     color: white;
-     font-weight: 900;
-     font-family: 'IBM Plex Mono', sans-serif;
-     font-size: 2em;
-     text-align: center;
-     transform: skewY(0deg);
-     line-height: 100%;
+.overlay-name {
+    color: white;
+    font-weight: 900;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 3em;
+    text-align: right;
+    transform: skewY(1deg);
+    line-height: 90%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  align-items: left;
 }
