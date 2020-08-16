@@ -2,7 +2,7 @@
 title: Ластик
 subtitle:
 shortname: indexmod.github.io/lastik
-exclude: true
+exclude: false
 video: media/lastik-ripple.gif
 layout: default
 ---
