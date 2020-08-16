@@ -1,9 +1,9 @@
 ---
 title: Ластик
 subtitle:
-shortname: media/new_logo.svg
+shortname: indexmod.github.io/lastik
 exclude: true
-video: indexmod.github.io/lastik
+video: media/lastik-ripple.gif
 layout: default
 ---
 
