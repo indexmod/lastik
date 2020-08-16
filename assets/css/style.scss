@@ -163,7 +163,8 @@ mark {
     font-family: 'IBM Plex Mono', sans-serif;
     font-size: 3em;
     text-align: right;
-    transform: skewY(-15deg);
+    transform: skewY(-10deg);
+    transform: perspective(-10deg);
     line-height: 90%;
 }
 
