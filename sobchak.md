@@ -4,7 +4,7 @@ subtitle: Осторожно Собчак
 prmalink: sobchak
 layout: default
 shortname: Собчак
-video: media/lastik-ripple.gif
+video: media/sobchak.gif
 ---
 
 

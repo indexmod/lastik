@@ -3,7 +3,7 @@ title: Ластик
 subtitle:
 shortname: media/new_logo.svg
 exclude: true
-video: media/lastik-ripple.gif
+video: indexmod.github.io/lastik
 layout: default
 ---
 
