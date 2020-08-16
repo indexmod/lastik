@@ -3,7 +3,7 @@ title: Собчак
 subtitle: Оформление шоу Осторожно, Собчак!
 prmalink: sobchak
 layout: default
-shortname: Осторожно, Собчак!
+shortname: Собчак
 video: media/sobchak.gif
 ---
 
