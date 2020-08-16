@@ -120,32 +120,32 @@ a:visited {
 }
  video {
      height: auto;
-     vertical-align: middle;
-     align: middle;
+     vertical-align: center;
+     align: center;
      width: 100%;
 }
 
 mark {
-  background: alpha;
+  background: white;
   padding-left: 10px;
   padding-right: 10px;
  }
 
 .overlay-desc {
-  background: alpha;
+  background: white;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
-  align-items: middle;
-  justify-content: middle;
+  align-items: center;
+  justify-content: center;
   z-index: 5
 }
  .overlay-name {
      color: white;
      font-weight: 900;
      font-family: 'IBM Plex Mono', sans-serif;
-     font-size: 1em;
-     text-align: left;
+     font-size: 2em;
+     text-align: center;
      transform: skewY(0deg);
      line-height: 100%;
 }
