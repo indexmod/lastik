@@ -1,7 +1,7 @@
 ---
 title: Ластик
 subtitle:
-shortname: Ластик
+shortname: media/new_logo.svg
 exclude: true
 video: media/lastik-ripple.gif
 layout: default
