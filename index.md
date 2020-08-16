@@ -1,7 +1,7 @@
 ---
 title: Ластик
 subtitle:
-shortname: indexmod.github.io/lastik
+shortname: Ластик
 exclude: false
 video: media/lastik-ripple.gif
 layout: default
