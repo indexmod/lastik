@@ -18,12 +18,12 @@ table, th, td {
 }
 
 th, td {
-  padding: 15px;
+  padding: 10px;
   text-align: left;
 }
 
 th, td {
-  border-bottom: 1px solid #e84bc1;
+  border-bottom: 2px solid #e84bc1;
 }
 
 
@@ -169,7 +169,7 @@ mark {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5px;
-  align-items: left;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  align-items: center;
 }
