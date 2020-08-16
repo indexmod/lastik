@@ -2,6 +2,7 @@
 title: Ластик
 subtitle: Корп-сайт
 shortname: Ластик
+exclude: true
 video: media/lastik-ripple.gif
 layout: default
 ---
