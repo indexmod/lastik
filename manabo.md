@@ -16,7 +16,7 @@ production: Андрей Дейниченко
 duration: 00:00:30
 deadline: 21.08.20
 duration: 00:00:30
-video: media/manabo.gif
+video: media/manabo.mov
 ---
 
 
