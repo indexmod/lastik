@@ -11,7 +11,7 @@ direction: Алексей Платонов
 art: Надежда Степанова
 music: Иван Ерофеев
 sound: Иван Ерофеев
-animation: Николай
+animation: Николай Shikhachevskiy
 production: Андрей Дейниченко
 deadline: 21.08.20
 duration: 00:00:30
