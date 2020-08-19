@@ -16,6 +16,8 @@ table {
   border-collapse: collapse;
 }
 
+
+
 table, th, td {
   border: 0.1px solid white;
 }
@@ -51,6 +53,14 @@ th, td {
      color: #e84bc1;
      font-size: 1em;
      line-height: 1.5em;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.7em;
 }
 
 ul, li {
