@@ -12,21 +12,19 @@ body {
      padding-right: 10px;
 }
 
-table, th, td {
-  color: white;
-  font-family: 'IBM Plex Mono', sans-serif;
+table {
+  border-collapse: collapse;
+}
 
+table, th, td {
+  border: 0.1px solid white;
 }
 
 th, td {
   padding: 10px;
-  color: white;
+  color: #e84bc1;
   text-align: left;
   font-family: 'IBM Plex Mono', sans-serif;
-}
-
-th, td {
-  border-bottom: 2px solid #e84bc1;
 }
 
 
@@ -39,14 +37,6 @@ th, td {
      padding: 1 1 1 1;
      opacity: 0.9;
 }
- h1 {
-     font-family: 'IBM Plex Mono', sans-serif;
-     font-weight: 900;
-     font-size: 1em;
-     color: #e84bc1;
-     line-height: 1.5em;
-}
-
 
  hr {
      border: none;
@@ -63,7 +53,7 @@ th, td {
      line-height: 1.5em;
 }
 
-ul, li, h1, h2, h3 {
+ul, li {
     font-family: 'IBM Plex Mono', sans-serif;
     font-weight: 400;
     color: green;
@@ -114,7 +104,7 @@ video {
 }
 
 mark {
- color: white;
+ color: #e84bc1;
  background: none;
  padding-left: 2px;
  padding-right: 2px;
