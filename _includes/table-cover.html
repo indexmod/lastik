@@ -1,16 +1,19 @@
 	<table>
 	  <tr>
 	    <td>Проект</td>
-	    <td>Статус</td>
+	    <td>Режиссер</td>
+			<td>Статус</td>
 	  </tr>
 		{% assign page_info = site.pages | where: 'name', 'sobchak.md' %}
   <tr>
     <td>{{ page_info[0].title }}</td>
-    <td>{{ page_info[0].status }}</td>
+    <td>{{ page_info[0].direction }}</td>
+		<td>{{ page_info[0].music }}</td>
   </tr>
 	{% assign page_info = site.pages | where: 'name', 'manabo.md' %}
 <tr>
 <td>{{ page_info[0].title }}</td>
-<td>{{ page_info[0].status }}</td>
+<td>{{ page_info[0].direction }}</td>
+<td>{{ page_info[0].music }}</td>
 </tr>
 	</table>
