@@ -1,18 +1,17 @@
-{% assign pages_info = 'sobchak.md,manabo.md' | split: ',' %}
 	<table>
 	  <tr>
 	    <td>Проект</td>
 	    <td>Статус</td>
 	  </tr>
-	  {% for page_name in pages_info %}
-	    {% assign page_info = site.pages | where: 'name', page_name %}
-	    <tr>
-	      <td>{{ page_info[0].title }}</td>
-	      <td>{{ page_info[0].status }}</td>
-	    </tr>
-			<tr>
-	      <td>{{ page_info[0].title }}</td>
-	      <td>{{ page_info[1].status }}</td>
-	    </tr>
+		{% assign page_info = site.pages | where: 'name', 'sobchak.md' %}
+  <tr>
+    <td>{{ page_info[0].title }}</td>
+    <td>{{ page_info[0].status }}</td>
+  </tr>
+	{% assign page_info = site.pages | where: 'name', 'manabo.md' %}
+<tr>
+<td>{{ page_info[0].title }}</td>
+<td>{{ page_info[0].status }}</td>
+</tr>
 	  {% endfor %}
 	</table>
