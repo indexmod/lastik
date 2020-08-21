@@ -4,7 +4,8 @@
 	<title></title>
 </head>
 <body>
-	{% assign page_info = site.pages | where: 'name', 'sobchak.md', 'manabo.md' %}
+	{% assign page_info = site.pages | where: 'name', 'sobchak.md' %}
+	{% assign page_info = site.pages | where: 'name', 'manabo.md' %}
 	<table>
 		<tr>
 			<td>Проект</td>
