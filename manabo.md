@@ -4,6 +4,7 @@ subtitle: Ролик для школы японского языка
 prmalink: manabo
 layout: default
 shortname: Manabo
+staus: 🟢
 brand: Manabo
 client: MANABO CO., Ltd.
 agency: MANABO CO., Ltd.
