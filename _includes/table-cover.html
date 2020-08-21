@@ -1,19 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	{% assign page_info = site.pages | where: 'name', 'sobchak.md' %} {% assign page_info = site.pages | where: 'name', 'manabo.md' %}
 	<table>
-	  <tr>
-	    <td>Проект</td>
-	    <td>Режиссер</td>
+		<tr>
+			<td>Проект</td>
+			<td>Режиссер</td>
 			<td>Статус</td>
-	  </tr>
-		{% assign page_info = site.pages | where: 'name', 'sobchak.md' %}
-  <tr>
-    <td>{{ page_info[0].title }}</td>
-    <td>{{ page_info[0].direction }}</td>
-		<td>{{ page_info[0].music }}</td>
-  </tr>
-	{% assign page_info = site.pages | where: 'name', 'manabo.md' %}
-<tr>
-<td>{{ page_info[0].title }}</td>
-<td>{{ page_info[0].direction }}</td>
-<td>{{ page_info[0].music }}</td>
-</tr>
+		</tr>
+		<tr>
+			<td>{{ page_info[0].title }}</td>
+			<td>{{ page_info[0].direction }}</td>
+			<td>{{ page_info[0].music }}</td>
+		</tr>
+		<tr>
+			<td>{{ page_info[0].title }}</td>
+			<td>{{ page_info[0].direction }}</td>
+			<td>{{ page_info[0].music }}</td>
+		</tr>
 	</table>
+</body>
+</html>
