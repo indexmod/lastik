@@ -2,7 +2,7 @@
 title: Собчак
 subtitle: Оформление шоу Осторожно, Собчак!
 prmalink: sobchak
-staus: Сдан
+status: 🔵
 layout: default
 shortname: Собчак
 video: media/sobchak.mp4
