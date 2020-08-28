@@ -10,10 +10,11 @@ client: MANABO CO., Ltd.
 agency: MANABO CO., Ltd.
 direction: Алексей Платонов
 art: Надежда Степанова
-music: Иван Ерофеев
+music:  
 sound: Иван Ерофеев
 animation: Николай Щикачевский
 production: Андрей Дейниченко
+script: MANABO CO., Ltd.
 deadline: 21.08.20
 duration: 00:00:50
 video: media/manabo.mov
