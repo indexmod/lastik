@@ -10,6 +10,18 @@
 			<td>Режиссер</td>
 			<td>Статус</td>
 		</tr>
+		{% assign page_info = site.pages | where: 'name', 'united-traders.md' %}
+	<tr>
+		<td>{{ page_info[0].title }}</td>
+		<td>{{ page_info[0].direction }}</td>
+		<td>{{ page_info[0].status }}</td>
+	</tr>
+	{% assign page_info = site.pages | where: 'name', 'pinkevich.md' %}
+<tr>
+	<td>{{ page_info[0].title }}</td>
+	<td>{{ page_info[0].direction }}</td>
+	<td>{{ page_info[0].status }}</td>
+</tr>
 			{% assign page_info = site.pages | where: 'name', 'sobchak.md' %}
 		<tr>
 			<td>{{ page_info[0].title }}</td>
