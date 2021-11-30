@@ -85,7 +85,7 @@ ul, li {
 
 a:link {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* mouse over link */
@@ -98,12 +98,12 @@ a:link {
 
  a:active {
      color: white;
-     text-decoration: underline;
+     text-decoration: none;
 }
 
 a:visited {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
  .video-container {
@@ -118,16 +118,10 @@ video {
     opacity: 0.5;
 }
 
-mark {
- background: none;
- padding-left: 2px;
- padding-right: 2px;
-}
-
 .overlay-desc {
  background: alpha;
  position: absolute;
- top: 0; right: 0; bottom: 0; left: 0;
+ top: 5; right: 5; bottom: 5; left: 5;
  display: flex;
  align-items: center;
  justify-content: center;
