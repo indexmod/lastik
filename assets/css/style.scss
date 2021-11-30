@@ -119,8 +119,8 @@ video {
 }
 
 .rc {
- width: 500px;
- height: 500px;
+ width: 250px;
+ height: 250px;
  border-radius: 90%;
  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
  -webkit-transform: rotate(0.000001deg);
@@ -129,8 +129,8 @@ video {
 }
 
 .video-circle {
-border-radius: 30%;
-object-fit: fill;
+border-radius: 50%;
+object-fit: cover;
 }
 
 .overlay-desc {
