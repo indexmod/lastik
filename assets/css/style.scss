@@ -13,7 +13,7 @@ body {
 }
 
  #wrapper {
-     width: 90%;
+     width: 105%;
      min-width: auto;
      max-width: auto;
      margin: 0px auto;
@@ -86,12 +86,4 @@ video {
 }
 
 .scaled {
-  z-index: 7;
   transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-  align-items: center;
-}
