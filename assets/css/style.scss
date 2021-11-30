@@ -115,7 +115,22 @@ video {
     vertical-align: top;
     align: middle;
     width: 100%;
-    opacity: 0.2;
+    opacity: 0.9;
+}
+
+.rc {
+ width: 700px;
+ height: 700px;
+ border-radius: 100%;
+ -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+ -webkit-transform: rotate(0.000001deg);
+ -webkit-border-radius: 100%;
+ -moz-border-radius: 100%;
+}
+
+.video-circle {
+border-radius: 50%;
+object-fit: cover;
 }
 
 .overlay-desc {
