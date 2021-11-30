@@ -24,7 +24,7 @@ table, th, td {
 
 th, td {
   padding: 10px;
-  color: #e84bc1;
+  color: #ff447d;
   text-align: left;
   vertical-align: top;
   font-family: 'IBM Plex Mono', sans-serif;
@@ -33,8 +33,8 @@ th, td {
 
  #wrapper {
      width: 100%;
-     min-width: 100px;
-     max-width: 400px;
+     min-width: auto;
+     max-width: auto;
      margin: 0px auto;
      color: white;
      padding: 1 1 1 1;
@@ -43,8 +43,8 @@ th, td {
 
  hr {
      border: none;
-     background-color: #e84bc1;
-     color: #e84bc1;
+     background-color: white;
+     color: white;
      height: 2px;
 }
 
@@ -83,24 +83,27 @@ ul, li {
 }
 
 /* unvisited link */
+
 a:link {
-    color: #e84bc1;
+    color: white;
     text-decoration: none;
 }
 
 /* mouse over link */
+
  a:hover {
      color: white;
      text-decoration: none;
 }
 /* selected link */
+
  a:active {
-     color: #e84bc1;
+     color: white;
      text-decoration: none;
 }
 
 a:visited {
-    color: #e84bc1;
+    color: white;
     text-decoration: none;
 }
 
