@@ -4,7 +4,7 @@
 
 
 body {
-     background-color: black;
+     background-color: #ff447d;
      display: block;
      width: 100%;
      height: 100%;
@@ -51,7 +51,7 @@ th, td {
  p {
      font-family: 'IBM Plex Mono', sans-serif;
      font-weight: 400;
-     color: #e84bc1;
+     color: white;
      font-size: 1em;
      line-height: 1.5em;
 }
@@ -107,6 +107,7 @@ a:visited {
  .video-container {
      position: relative;
 }
+
 video {
     height: auto;
     vertical-align: middle;
@@ -115,7 +116,7 @@ video {
 }
 
 mark {
- color: #e84bc1;
+ color: white;
  background: none;
  padding-left: 2px;
  padding-right: 2px;
