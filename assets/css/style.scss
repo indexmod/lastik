@@ -36,9 +36,9 @@ th, td {
      min-width: auto;
      max-width: auto;
      margin: 0px auto;
-     color: white;
+     color: alpha;
      padding: 0 0 0 0;
-     opacity: 0.1;
+     opacity: 0.5;
 }
 
  hr {
@@ -86,7 +86,7 @@ ul, li {
 
 a:link {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* mouse over link */
@@ -99,16 +99,16 @@ a:link {
 
  a:active {
      color: white;
-     text-decoration: none;
+     text-decoration: underline;
 }
 
 a:visited {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
  .video-container {
-     position: relative;
+     position: sticky;
 }
 
 video {
@@ -132,7 +132,7 @@ mark {
  display: flex;
  align-items: center;
  justify-content: center;
- z-index: 5
+ z-index: 1
 }
 
 .overlay-name {
