@@ -13,10 +13,10 @@ body {
 }
 
  #wrapper {
-     width: 100%;
+     width: auto;
      min-width: auto;
      max-width: auto;
-     margin: -1 -1 -1 -1;
+     margin: 0 0 0 0;
      color: alpha;
      padding: 0 0 0 0;
 }
@@ -86,4 +86,4 @@ video {
 }
 
 .scaled {
-  transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */}
+  transform: scale(0.5); /* Equal to scaleX(0.7) scaleY(0.7) */}
