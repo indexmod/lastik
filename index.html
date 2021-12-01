@@ -95,6 +95,69 @@ transform: scale(0.1); /* Equal to scaleX(0.7) scaleY(0.7) */}
     margin:0 auto;
 
 }
+
+
+#fade {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+
+#light {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 600px;
+  max-height: 360px;
+  margin-left: -300px;
+  margin-top: -180px;
+  border: 2px solid #FFF;
+  background: #FFF;
+  z-index: 1002;
+  overflow: visible;
+}
+
+#boxclose {
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #AEAEAE;
+  border-radius: 3px;
+  background: #222222;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 1002;
+  opacity: 0.9;
+}
+
+.boxclose:before {
+  content: "x";
+}
+
+#fade:hover ~ #boxclose {
+  display:none;
+}
+
+.test:hover ~ .test2 {
+  display: none;
+}
+
+
 </style>
 </head>
 <body>
@@ -127,14 +190,29 @@ transform: scale(0.1); /* Equal to scaleX(0.7) scaleY(0.7) */}
 <p align="center"><a href="https://www.instagram.com/lastik.studio/">Instagram</a> <a href="https://vimeo.com/lastik">Vimeo</a> <a href="https://www.facebook.com/lastikstudio/">Facebook</a> <a href="https://www.behance.net/lastik">Behance</a></p>
 
 <script>
+window.document.onkeydown = function(e) {
+  if (!e) {
+    e = event;
+  }
+  if (e.keyCode == 27) {
+    lightbox_close();
+  }
+}
 
-$( document ).ready(function() {
-    $('#headerVideoLink').magnificPopup({
-     type:'inline',
-     midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-   });
+function lightbox_open() {
+  var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+  window.scrollTo(0, 0);
+  document.getElementById('light').style.display = 'block';
+  document.getElementById('fade').style.display = 'block';
+  lightBoxVideo.play();
+}
 
-   });
+function lightbox_close() {
+  var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+  document.getElementById('light').style.display = 'none';
+  document.getElementById('fade').style.display = 'none';
+  lightBoxVideo.pause();
+}
 </script>
 
 </body>
