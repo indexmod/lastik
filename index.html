@@ -110,20 +110,18 @@ transform: scale(0.1); /* Equal to scaleX(0.7) scaleY(0.7) */}
 
   <p>We make animations and graphics for advertising, cinema and educational projects</p>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1 class="text-center display-4 mt-5">
-          We make animations and graphics for advertising, &amp; cinema and educational projects
-        </h1>
-        <p class="text-center mt-5">
-          <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">See Why Solodev WXP</a>
-        </p>
-       <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
-        <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/qN3OueBm9F4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+  <div id="light">
+    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+    <video id="VisaChipCardVideo" width="600" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <!--Browser does not support <video> tag -->
+      </video>
+  </div>
+
+  <div id="fade" onClick="lightbox_close();"></div>
+
+  <div>
+    <a href="#" onclick="lightbox_open();">Watch video</a>
   </div>
 
 <p align="center"><a href="https://www.instagram.com/lastik.studio/">Instagram</a> <a href="https://vimeo.com/lastik">Vimeo</a> <a href="https://www.facebook.com/lastikstudio/">Facebook</a> <a href="https://www.behance.net/lastik">Behance</a></p>
