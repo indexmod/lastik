@@ -7,11 +7,43 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
 body {
   margin: 0;
-  font-family: Arial;
-  font-size: 17px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 19px;
 }
+
+/* unvisited link */
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+
+ a:hover {
+     color: white;
+     text-decoration: underline;
+}
+/* selected link */
+
+ a:active {
+     color: white;
+     text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+ .video-container {
+     position: sticky;
+}
+
 
 #myVideo {
   position: fixed;
@@ -25,7 +57,7 @@ body {
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  color: red;
+  color: white;
   width: 100%;
   padding: 20px;
 }
