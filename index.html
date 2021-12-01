@@ -84,6 +84,16 @@ transform: scale(0.1); /* Equal to scaleX(0.7) scaleY(0.7) */}
 #myBtn:hover {
   background: ;
   color: white;
+
+  #headerPopup{
+    width:75%;
+    margin:0 auto;
+  }
+
+  #headerPopup iframe{
+    width:100%;
+    margin:0 auto;
+
 }
 </style>
 </head>
@@ -97,28 +107,36 @@ transform: scale(0.1); /* Equal to scaleX(0.7) scaleY(0.7) */}
 <img class="center" class="scaled" src="old/media/new_logo.svg"type="image/svg">
 
 <div class="content">
-  <h1>Hi</h1>
 
   <p>We make animations and graphics for advertising, cinema and educational projects</p>
-  <br>
-  <button id="myBtn" onclick="myFunction()">Pause</button>
-<br>
-<br>
-<br>
-<p align="center"><a href="https://www.instagram.com/lastik.studio/">Instagram</a> <a href="https://vimeo.com/lastik">Vimeo</a> <a href="https://www.facebook.com/lastikstudio/">Facebook</a> <a href="https://www.behance.net/lastik">Behance</a></p>
-<script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
 
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Reel";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="text-center display-4 mt-5">
+          We make animations and graphics for advertising, &amp; cinema and educational projects
+        </h1>
+        <p class="text-center mt-5">
+          <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">See Why Solodev WXP</a>
+        </p>
+       <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/qN3OueBm9F4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<p align="center"><a href="https://www.instagram.com/lastik.studio/">Instagram</a> <a href="https://vimeo.com/lastik">Vimeo</a> <a href="https://www.facebook.com/lastikstudio/">Facebook</a> <a href="https://www.behance.net/lastik">Behance</a></p>
+
+<script>
+
+$( document ).ready(function() {
+    $('#headerVideoLink').magnificPopup({
+     type:'inline',
+     midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+   });
+
+   });
 </script>
 
 </body>
