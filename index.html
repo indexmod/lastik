@@ -46,9 +46,6 @@ a:visited {
      position: sticky;
 }
 
-.scaled {
-transform: scale(0.3); /* Equal to scaleX(0.7) scaleY(0.7) */}
-
 #myVideo {
   position: fixed;
   right: 0;
@@ -60,9 +57,11 @@ transform: scale(0.3); /* Equal to scaleX(0.7) scaleY(0.7) */}
 .content {
   position: fixed;
   bottom: 0;
-  background: linear-gradient(0deg, rgba(253, 72, 127, 1) 0%, rgba(253, 72, 127, 0.9) 10%, rgba(253, 72, 127, 0.3) 70%);
+  background: linear-gradient(0deg, rgba(253, 72, 127, 1) 0%, rgba(253, 72, 127, 0.3) 70%);
   color: white;
-  width: 100%;
+  width: 100%
+  min-height: inherit;
+  height: 100px;
   padding: 0px;
 }
 
