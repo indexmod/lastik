@@ -90,16 +90,8 @@ a:visited {
   border: 0px solid green;
 }
 
-.front {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  border: 0px solid green;
-}
-
 .footer {
-  display: flex;
+  display: box;
   justify-content: center;
   align-items: center;
   height: 150px;
@@ -122,9 +114,8 @@ a:visited {
 <div class="center">
 <a align="center" href="/vimeo" class="myButton">REEL</a>
 </div>
-  </div>
-
-  <div class="footer">
-  {% include footer.html %}
+<div class="footer">
+<p>{% include footer.html %}</p>
+</div>
   </div>
 </body>
