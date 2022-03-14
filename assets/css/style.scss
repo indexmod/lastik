@@ -95,17 +95,10 @@ table, th, td {
 th, td {
   padding: 15px;
   color: black;
-  font-weight: 900;
+  font-weight: 700;
   text-align: left;
   vertical-align: top;
-  font-family: 'Space Mono', monospace;
-}
-
- hr {
-     border: none;
-     background-color: white;
-     color: white;
-     height: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
  p {
@@ -142,7 +135,7 @@ ul, li {
 }
 
 .toptable-meta {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: black;
     font-size: 1em;
@@ -168,6 +161,7 @@ a:link {
 }
 
 /* mouse over link */
+
  a:hover {
    font-family: 'Montserrat', sans-serif;
    font-weight: 600;
@@ -178,6 +172,7 @@ a:link {
      font-weight: 900;
 }
 /* selected link */
+
  a:active {
    font-family: 'Montserrat', sans-serif;
    font-weight: 600;
