@@ -90,6 +90,14 @@ a:visited {
   border: 0px solid green;
 }
 
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border: 0px solid green;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -115,9 +123,11 @@ a:visited {
 <a align="center" href="/vimeo" class="myButton">REEL</a>
 <br>
 {% include lastik-front-title.html %}
+
 <br>
-<br>
+<div class="front">
 {% include lastik-front.html %}
+</div>
 <br>
 <div class="footer">
 {% include footer.html %}
