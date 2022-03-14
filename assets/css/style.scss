@@ -1,0 +1,287 @@
+---
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Space+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+---
+
+/* Video header */
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 100px;
+  background-color: MediumVioletRed	;
+  color: white;
+}
+
+
+.top {
+     position: relative;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(253, 72, 127, 1) 0%, rgba(253, 72, 127, 0) 100%);
+  color: white;
+  width: 100%;
+  padding: 100px;
+}
+
+.myButton {
+	background-color:transparent;
+	border-radius:28px;
+	border:3px solid #ffffff;
+	display: inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'M PLUS Rounded 1c', sans-serif;;
+	font-size:22px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration: none;
+}
+
+.center {
+  display: box;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 0px solid green;
+}
+
+.lastik {
+  display: box;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border: 0px solid green;
+}
+
+
+body {
+     background-color: white;
+     display: block;
+     width: 100%;
+     height: 100%;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+
+
+table, th, td {
+  border-bottom: 5px solid white;
+
+}
+
+th, td {
+  padding: 15px;
+  color: black;
+  font-weight: 900;
+  text-align: left;
+  vertical-align: top;
+  font-family: 'Space Mono', monospace;
+}
+
+ hr {
+     border: none;
+     background-color: white;
+     color: white;
+     height: 30px;
+}
+
+ p {
+     font-family: 'Space Mono', monospace;
+     font-weight: 500;
+     color: black;
+     font-size: 1em;
+     line-height: 1em;
+     -webkit-text-size-adjust: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 0.5em;
+    line-height: 1em;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 0.3em;
+    line-height: 1em;
+}
+
+ul, li {
+    font-family: 'Space Mono', monospace;
+    font-weight: 900;
+    color: black;
+    font-size: 0.5em;
+    line-height: 1em;
+}
+
+.toptable-meta {
+    font-family: 'Space Mono', monospace;
+    font-weight: 900;
+    color: black;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.main {
+    color: black;
+    font-weight: 900;
+}
+
+
+/* unvisited link */
+
+a:link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-size: 0.5em;
+    line-height: 1em;
+    font-weight: 900;
+}
+
+/* mouse over link */
+ a:hover {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+     color: black;
+     text-decoration: underline;
+     font-size: 0.5em;
+     line-height: 1em;
+     font-weight: 900;
+}
+/* selected link */
+ a:active {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+     color: black;
+     text-decoration: none;
+     font-size: 0.5em;
+     line-height: 1em;
+     font-weight: 900;
+}
+
+a:visited {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-size: 0.5em;
+    line-height: 1em;
+    font-weight: 900;
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 0px auto;
+    color: white;
+    padding: 1 1 1 1;
+    opacity: 0.9;
+}
+
+.video-container {
+    position: relative;
+}
+
+video {
+    height: auto;
+    vertical-align: middle;
+    align: middle;
+    width: 100%;
+}
+
+mark {
+ color: white;
+ background: none;
+ padding-left: 2px;
+ padding-right: 2px;
+}
+
+.overlay-desc {
+ background: alpha;
+ position: absolute;
+ top: 0; right: 0; bottom: 0; left: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ z-index: 5
+}
+
+.overlay-name {
+    font-weight: 900;
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+    text-align: right;
+}
+
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 25px;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .grid { grid-template-columns: repeat(1, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.grid-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 25px;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .grid-page { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Screen larger than 900px? 2 columns */
+@media (min-width: 700px) {
+  .grid-page { grid-template-columns: repeat(4, 1fr); }
+}
+
+
+footer {
+  text-align: center;
+  padding: 100px;
+  background-color: DarkSlateGray;
+  color: white;
+}

@@ -1,0 +1,20 @@
+
+<div>
+<h2 text-align:center;">watch more</h2>
+<br>
+<main class="grid-page">
+{% assign mypages = site.html_pages | sample: 4 %} {% for page in mypages %}
+{% unless page.exclude %}
+<p>
+<a href="{{page.url|absolute_url}}"> <video autoplay muted loop>
+<source src="{{page.video}}" type="video/mp4">
+<source src="{{page.video}}" type="video/ogg">
+<source src="{{page.video}}" type="video/mov">
+<source src="{{page.video}}" type="video/m4v">
+<source src="{{page.video}}" type="video/gif">
+</video></a>
+</p>
+{% endunless %}
+{% endfor %}
+</main>
+</div>
