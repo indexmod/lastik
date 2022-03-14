@@ -1,7 +1,8 @@
 ---
-title: Lastik
-subtitle: Studio
-shortname: Lastik
+title: Grid
+subtitle:
+shortname:
+
 exclude: true
 video:
 layout: index
