@@ -1,8 +1,8 @@
 ---
-title: Grid
+title: Grid view
 subtitle:
 shortname:
 exclude: true
-video:
+video: media/cover-top.mp4
 layout: index
 ---
