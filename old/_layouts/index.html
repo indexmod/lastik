@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+{% include meta.html %}
+{% include yandex.html %}
+{% include favicon.html %}
+</head>
+
+<body>
+{% include window.html %}
+{{ content }}
+{% include main-text.html %}
+{% include footer.html %}
+
+<p align="center">2020 — {{ site.time | date: "%Y" }} © Lastik Studio / Студия Ластик</p>
+</body>
+</html>
